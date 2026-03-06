@@ -48,3 +48,60 @@ nav a:hover {
   color: #68cd85;
   transform: translateY(-3px);
 }
+
+article, section {
+  background-color: #ffffff;
+  pad: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+article h2, section h3 {
+  margin-bottom: 15px;
+  color: #68cd85;
+}
+
+article image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+section ul li:last-child {
+  border-bottom: none;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer hr {
+  border: none;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #68cd85;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

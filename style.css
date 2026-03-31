@@ -47,7 +47,6 @@ nav a {
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 }
 
 nav a:hover {
@@ -100,6 +99,11 @@ section ul li {
 
 section ul li:last-child {
   border-bottom: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
 }
 
 footer {
